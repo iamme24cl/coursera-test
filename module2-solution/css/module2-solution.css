@@ -4,61 +4,56 @@
 
 body {
   font-family: monospace, Times, serif;
-  
-  }
+    }
 
 h1 {
   text-align: center;
   font-size: 175%;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
-div {
-  background-color: gray;
-    }
-   
-div#margin-1 {
-  margin-right: 30px;
-  margin-left: 15PX;
-}
-
-
-h2{
-  font-size: 125%;
-  border: 1px solid black;
+ h2 {
+  margin-top: 0;
+  position: absolute;
+  right: 0;
   padding: 5px;
+  border: 1px solid black;
+  width: 180px;
   text-align: center;
+  font-size: 125%
   
 }
-h2.title-1 {
-  background-color: pink;
-  width: 160px;
-  position: relative;
-  left: 330px;
-  bottom: 18px;  
-}
-h2.title-2 {
-  background-color: red;
-  width: 160px;
-  position: relative;
-  left: 330px;
-  bottom: 18px; 
-}
-h2.title-3 {
-  background-color: yellow;
-  width: 160px;
-  position: relative;
-  left: 330px;
-  bottom: 18px; 
-}
-p {
-  padding: 5px;
+p{
+  padding: 30px 10px 5px 10px;
   text-align: left;
-  }
+}
 
 p.text-justify {
   text-align: justify;
 }
+.title-chicken {
+  background-color: pink;
+ }
+.title-beef {
+  background-color: red;
+}
+.title-bass {
+  background-color: yellow;
+}
+div.section {
+  background: gray;
+  border: 1px solid black;
+  margin: 5px;
+  position: relative;  
+}
+div#margin-1 {
+  margin-left: 15px;
+}
+
+
+
+
+
 .row {
   width: 100%
 }
@@ -66,10 +61,8 @@ p.text-justify {
 /*********Medium Devices Only**********/
 @media (min-width: 992px){
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-	border: 1px solid black;
-	position: relative;
-     }
+  float: left;
+  		     }
   .col-md-1 {
     width: 8.33%;
   }
@@ -80,7 +73,7 @@ p.text-justify {
     width: 25%;
   }
   .col-md-4 {
-    width: 32.33%;
+    width: 33.33%;
   }
   .col-md-5 {
     width: 41.66%;
@@ -112,10 +105,9 @@ p.text-justify {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-	border: 1px solid black;
-	position: relative;
-      }
+  float: left;
+	
+  }
   .col-sm-1 {
     width: 8.33%;
   }
@@ -158,10 +150,8 @@ p.text-justify {
 
 @media (max-width: 767px) {
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-    float: left;
-	border: 1px solid black;
-	position: relative;
-      }
+  float: left;
+		     }
   .col-xs-1 {
     width: 8.33%;
   }
